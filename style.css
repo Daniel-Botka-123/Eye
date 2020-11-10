@@ -1,0 +1,94 @@
+/* OKO */
+
+/* GLOBAL */
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* GAME CONFIGURATION */
+
+#game {
+    width: 100vw;
+    height: 100vh;
+    padding: 32.5px;
+    background-color: #ebb584;
+    
+}
+
+#title_main {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Henny Penny', cursive;
+}
+
+.game_field {
+    background-image: url("bg_wood.jpg");
+    background-size: cover;
+    height: 380px;
+    width: 96%;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    position: relative;   
+}
+
+/* BUTTONS */
+
+#add_card {
+    font-size: 20px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#stop_card {
+    font-size: 20px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#refresh_card {
+    font-size: 20px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    visibility: hidden;
+}
+
+/* CARDS ON SCREEN */
+
+.card_default {
+    width: 160px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+}
+
+.card_moved_first {
+    left: 22.5%;
+}
+
+.card_moved_second {
+    left: 25%;
+}
+
+/* CARDS PLAYABLE */
+
+.card_playable {
+    width: 160px;
+    height: 250px;
+    position: absolute;
+    top: 50%;
+    left: 27.5%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+

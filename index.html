@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section id="game">
+      <h1 id="title_main">EYE a.k.a. OKO</h1>
+
+      <!--GAME FIELD -->
+      <div class="game_field">
+        <img class="card_default" src="imgs/card_default.JPG">
+        <img class="card_default card_moved_first" src="imgs/card_default.JPG">
+        <img class="card_default card_moved_second" src="imgs/card_default.JPG">
+        <img class="card_playable" src="imgs/card_default.JPG">
+      </div>
+
+      <!--GAME BUTTONS-->
+      <div class="game_buttons">
+        <button id="add_card">+<br>ADD NEW CARD</button>
+        <button id="stop_card">x<br>STOP / OPPONENT'S TURN</button>
+        <button id="refresh_card">⟳<br>PLAY AGAIN</button>
+
+      <!--OUTPUTS-->
+        <p><b>YOUR SCORE:<b>  <span id="your_score_output"></span></p>
+        <p><b>OPPONENT:</b>   <span id="opponent_output"></span></p>
+        <p><b>RESULT:<b>      <span id="result_output"></span></p>
+      </div>
+    </section>
+  </body>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
